@@ -27,7 +27,7 @@ public class CalculatorTest {
     }
     @Test
     public void SquareTruePositive(){
-        assertEquals("Finding square root of a number", 2, objCalcUnderTest.square_root(4), DELTA);
+        assertEquals("Finding square root of a number", 4, objCalcUnderTest.square_root(16), DELTA);
         assertEquals("Finding square root of a number", 6, objCalcUnderTest.square_root(36), DELTA);
         assertEquals("Finding square root of a number", 8, objCalcUnderTest.square_root(64), DELTA);
     }
