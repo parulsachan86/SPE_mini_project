@@ -1,0 +1,4 @@
+[Anishapc]
+mini_project_server ansible_host=172.16.144.243 ansible_connection=ssh ansible_ssh_user=anisha ansible_ssh_pass=7894 ansible_ssh_extra_args='-o StrictHostKeyChecking=no'
+
+
