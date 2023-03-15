@@ -1,4 +1,4 @@
 [localServer]
-mini_project_server ansible_host=172.16.144.232 ansible_connection=ssh ansible_ssh_user=parul ansible_ssh_pass=parul@123 ansible_ssh_extra_args='-o StrictHostKeyChecking=no'
+mini_project_server ansible_host=172.16.144.231 ansible_connection=ssh ansible_ssh_user=parul ansible_ssh_pass=parul@123 ansible_ssh_extra_args='-o StrictHostKeyChecking=no'
 
 
