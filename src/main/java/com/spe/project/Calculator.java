@@ -1,33 +1,34 @@
 package com.spe.project;
 
 import java.util.*;
-//import org.apache.logging.log4j.Logger;
-//import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+import org.apache.logging.log4j.LogManager;
 
 public class Calculator {
 
-//    private static final Logger logger = LogManager.getLogger(Calculator.class);
+    private static final Logger logger = LogManager.getLogger(Calculator.class);
 
     //my factorial function
     static long factorial(int n){
-//        logger.info("[FACTORIAL] - " + n);
-        if (n == 0)
-            return 1;
-        else
-            return(n * factorial(n-1));
+        long result = 1;
+        logger.info("[Factorial of a number] - " + n);
+        for(int i =1;i <= n;i++){
+            result = result * i;
+        }
+        return result;
     }
 
     static double square_root(int n){
         double result;
-//        logger.info("[SQ ROOT] - " + n);
+        logger.info("[SQ ROOT] - " + n);
 
         result = Math.sqrt(n);
-//        logger.info("[RESULT - SQ ROOT] - " + result);
+        logger.info("[RESULT - SQ ROOT] - " + result);
         return result;
     }
 
     static double natural_log(int n){
-//        logger.info("[NATURAL LOG] - " + n);
+        logger.info("[NATURAL LOG] - " + n);
         double result=0;
         try {
             if (n < 0 ) {
@@ -41,18 +42,18 @@ public class Calculator {
                 result = Math.log(n);
             }
         } catch (ArithmeticException error) {
-//            logger.error("[EXCEPTION - LOG] - Cannot find log of negative numbers");
+            logger.error("[EXCEPTION - LOG] - Cannot find log of negative numbers");
             System.out.println("[EXCEPTION - LOG] - Cannot find log of negative numbers " + error.getLocalizedMessage());
         }
-//        logger.info("[RESULT - NATURAL LOG] - " + result);
+        logger.info("[RESULT - NATURAL LOG] - " + result);
         return result;
     }
 
     static double x_power_b(int x, int b){
-//        logger.info("[POWER of" + x + "RAISED TO]" + b);
+        logger.info("[POWER of" + x + "RAISED TO]" + b);
         double res=0;
         res = Math.pow(x, b);
-//        logger.info("[RESULT - POWER] - " + res);
+        logger.info("[RESULT - POWER] - " + res);
         return res;
     }
     public static void main(String a[])
