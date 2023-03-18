@@ -11,4 +11,4 @@
       shell: docker pull parulsachan86/scientific_calc
 
     - name: running container
-      shell: docker run -it --name calculator -d parulsachan86/scientific_calc
+      shell: docker stop calculator && docker rm calculator && docker run -it --name calculator -d parulsachan86/scientific_calc
