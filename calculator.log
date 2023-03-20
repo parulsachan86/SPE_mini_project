@@ -1,0 +1,10 @@
+[Time: 19:51 PM # Date: 20/03/2023] [INFO ] [File: com.spe.project.Calculator # Line: 23] --> [Square root of a number] - 16
+[Time: 19:51 PM # Date: 20/03/2023] [INFO ] [File: com.spe.project.Calculator # Line: 26] --> [Result -SQROOT ] - 4.0
+[Time: 19:51 PM # Date: 20/03/2023] [INFO ] [File: com.spe.project.Calculator # Line: 14] --> [Factorial of a number] - 4
+[Time: 19:51 PM # Date: 20/03/2023] [INFO ] [File: com.spe.project.Calculator # Line: 53] --> [Power of2raised to]3
+[Time: 19:51 PM # Date: 20/03/2023] [INFO ] [File: com.spe.project.Calculator # Line: 56] --> [RESULT - Power] - 8.0
+[Time: 19:52 PM # Date: 20/03/2023] [INFO ] [File: com.spe.project.Calculator # Line: 14] --> [Factorial of a number] - 98
+[Time: 19:52 PM # Date: 20/03/2023] [INFO ] [File: com.spe.project.Calculator # Line: 31] --> [Natural log of a number] - -10
+[Time: 19:52 PM # Date: 20/03/2023] [ERROR] [File: com.spe.project.Calculator # Line: 45] --> [EXCEPTION - LOG] - Cannot find log of negative numbers
+[Time: 19:52 PM # Date: 20/03/2023] [INFO ] [File: com.spe.project.Calculator # Line: 48] --> [RESULT - Natural log] - NaN
+[Time: 19:52 PM # Date: 20/03/2023] [INFO ] [File: com.spe.project.Calculator # Line: 14] --> [Factorial of a number] - -8
