@@ -85,20 +85,6 @@
 <!--          <version>3.0.0</version>-->
 <!--        </plugin>-->
 
-<!--        <plugin>-->
-<!--          &lt;!&ndash; Build an executable JAR &ndash;&gt;-->
-<!--          <groupId>org.apache.maven.plugins</groupId>-->
-<!--          <artifactId>maven-jar-plugin</artifactId>-->
-<!--          <version>3.1.0</version>-->
-<!--          <configuration>-->
-<!--            <archive>-->
-<!--              <manifest>-->
-<!--                <mainClass>com.spe.project.Calculator</mainClass>-->
-<!--              </manifest>-->
-<!--            </archive>-->
-<!--          </configuration>-->
-<!--        </plugin>-->
-
         <plugin>
           <groupId>org.apache.maven.plugins</groupId>
           <artifactId>maven-assembly-plugin</artifactId>

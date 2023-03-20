@@ -20,15 +20,15 @@ public class Calculator {
 
     static double square_root(int n){
         double result;
-        logger.info("[SQ ROOT] - " + n);
+        logger.info("[Square root of a number] - " + n);
 
         result = Math.sqrt(n);
-        logger.info("[RESULT - SQ ROOT] - " + result);
+        logger.info("[Result -SQROOT ] - " + result);
         return result;
     }
 
     static double natural_log(int n){
-        logger.info("[NATURAL LOG] - " + n);
+        logger.info("[Natural log of a number] - " + n);
         double result=0;
         try {
             if (n < 0 ) {
@@ -45,15 +45,15 @@ public class Calculator {
             logger.error("[EXCEPTION - LOG] - Cannot find log of negative numbers");
             System.out.println("[EXCEPTION - LOG] - Cannot find log of negative numbers " + error.getLocalizedMessage());
         }
-        logger.info("[RESULT - NATURAL LOG] - " + result);
+        logger.info("[RESULT - Natural log] - " + result);
         return result;
     }
 
     static double x_power_b(int x, int b){
-        logger.info("[POWER of" + x + "RAISED TO]" + b);
+        logger.info("[Power of" + x + "raised to]" + b);
         double res=0;
         res = Math.pow(x, b);
-        logger.info("[RESULT - POWER] - " + res);
+        logger.info("[RESULT - Power] - " + res);
         return res;
     }
     public static void main(String a[])

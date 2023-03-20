@@ -51,8 +51,8 @@ pipeline{
         }
         stage('Ansible deploy'){
             steps{
-             sh 'ansible-playbook -i inventoryfile playbook.yml'
-//                 sh 'ansible-playbook -i inventory playbook.yml'
+//              sh 'ansible-playbook -i inventoryfile playbook.yml'
+                sh 'ansible-playbook -i inventory playbook.yml'
                 // sh 'ansible-playbook ping.yml'
             }
         }
