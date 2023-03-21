@@ -7,12 +7,13 @@
         name: docker
         state: started
 
-#    - name: Stopping the running calculator
-#      shell: docker stop calculator && docker rm calculator
+    - name: Stopping the running calculator
+      shell: docker stop calculator && docker rm calculator
 #      when: result.exists
 #
 #    - name: Deleting the docker image
 #      shell: docker rmi parulsachan86/scientific_calc
+
 
     - name: pull docker image
       shell: docker pull parulsachan86/scientific_calc
